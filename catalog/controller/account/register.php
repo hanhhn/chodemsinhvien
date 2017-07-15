@@ -78,7 +78,6 @@ class ControllerAccountRegister extends Controller {
 		$data['entry_email'] = $this->language->get('entry_email');
 		$data['entry_telephone'] = $this->language->get('entry_telephone');
 		$data['entry_address_1'] = $this->language->get('entry_address_1');
-		$data['entry_postcode'] = $this->language->get('entry_postcode');
 		$data['entry_country'] = $this->language->get('entry_country');
 		$data['entry_zone'] = $this->language->get('entry_zone');
 		$data['entry_newsletter'] = $this->language->get('entry_newsletter');
@@ -122,12 +121,6 @@ class ControllerAccountRegister extends Controller {
 			$data['error_address_1'] = $this->error['address_1'];
 		} else {
 			$data['error_address_1'] = '';
-		}
-
-		if (isset($this->error['postcode'])) {
-			$data['error_postcode'] = $this->error['postcode'];
-		} else {
-			$data['error_postcode'] = '';
 		}
 
 		if (isset($this->error['country'])) {
@@ -211,14 +204,6 @@ class ControllerAccountRegister extends Controller {
 			$data['address_1'] = $this->request->post['address_1'];
 		} else {
 			$data['address_1'] = '';
-		}
-
-		if (isset($this->request->post['postcode'])) {
-			$data['postcode'] = $this->request->post['postcode'];
-		} elseif (isset($this->session->data['shipping_address']['postcode'])) {
-			$data['postcode'] = $this->session->data['shipping_address']['postcode'];
-		} else {
-			$data['postcode'] = '';
 		}
 
 		if (isset($this->request->post['country_id'])) {
@@ -347,10 +332,6 @@ class ControllerAccountRegister extends Controller {
 		$this->load->model('localisation/country');
 
 		$country_info = $this->model_localisation_country->getCountry($this->request->post['country_id']);
-
-		if ($country_info && $country_info['postcode_required'] && (utf8_strlen(trim($this->request->post['postcode'])) < 2 || utf8_strlen(trim($this->request->post['postcode'])) > 10)) {
-			$this->error['postcode'] = $this->language->get('error_postcode');
-		}
 
 		if ($this->request->post['country_id'] == '') {
 			$this->error['country'] = $this->language->get('error_country');
