@@ -78,7 +78,6 @@ class ControllerAccountRegister extends Controller {
 		$data['entry_email'] = $this->language->get('entry_email');
 		$data['entry_telephone'] = $this->language->get('entry_telephone');
 		$data['entry_address_1'] = $this->language->get('entry_address_1');
-		$data['entry_address_2'] = $this->language->get('entry_address_2');
 		$data['entry_postcode'] = $this->language->get('entry_postcode');
 		$data['entry_city'] = $this->language->get('entry_city');
 		$data['entry_country'] = $this->language->get('entry_country');
@@ -219,12 +218,6 @@ class ControllerAccountRegister extends Controller {
 			$data['address_1'] = $this->request->post['address_1'];
 		} else {
 			$data['address_1'] = '';
-		}
-
-		if (isset($this->request->post['address_2'])) {
-			$data['address_2'] = $this->request->post['address_2'];
-		} else {
-			$data['address_2'] = '';
 		}
 
 		if (isset($this->request->post['postcode'])) {
