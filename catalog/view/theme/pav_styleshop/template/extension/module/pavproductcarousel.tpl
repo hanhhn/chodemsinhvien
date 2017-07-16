@@ -2,7 +2,7 @@
 	$config = $sconfig; 
 	$span = 12/$cols; 
 	$active = 'latest';
-	$id = rand(1,9)+substr(md5($heading_title),0,3);
+	$id = rand(1,9) . substr(md5($heading_title),0,3);
 
 	$theme  = $themename;
 	$themeConfig = (array)$config->get('themecontrol');
