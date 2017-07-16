@@ -165,7 +165,12 @@ class ControllerCheckoutPaymentAddress extends Controller {
 					// Default Payment Address
 					$this->load->model('account/address');
 
-					$address_id = $this->model_account_address->addAddress($this->request->post);
+					
+					$address_data = $this->request->post;
+					$address_data['postcode'] = "";
+					$address_data['address_2'] = "";
+					$address_data['company'] = "";
+					$address_id = $this->model_account_address->addAddress($address_data);
 
 					$this->session->data['payment_address'] = $this->model_account_address->getAddress($address_id);
 
