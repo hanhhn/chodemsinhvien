@@ -165,6 +165,7 @@ class ControllerCheckoutRegister extends Controller {
 			if ((utf8_strlen(trim($this->request->post['city'])) < 2) || (utf8_strlen(trim($this->request->post['city'])) > 128)) {
 				$json['error']['city'] = $this->language->get('error_city');
 			}
+			
 
 			$this->load->model('localisation/country');
 
@@ -231,7 +232,13 @@ class ControllerCheckoutRegister extends Controller {
 		}
 
 		if (!$json) {
-			$customer_id = $this->model_account_customer->addCustomer($this->request->post);
+			$customer_data = $this->request->post;
+			$customer_data['fax'] = "";
+			$customer_data['company'] = "";
+			$customer_data['address_2'] = "";
+			$customer_data['postcode'] = "";
+			
+			$customer_id = $this->model_account_customer->addCustomer($customer_data);
 
 			// Clear any previous login attempts for unregistered accounts.
 			$this->model_account_customer->deleteLoginAttempts($this->request->post['email']);
