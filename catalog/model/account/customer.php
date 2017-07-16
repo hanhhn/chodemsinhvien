@@ -52,7 +52,7 @@ class ModelAccountCustomer extends Model {
 		$mail->setSender(html_entity_decode($this->config->get('config_name'), ENT_QUOTES, 'UTF-8'));
 		$mail->setSubject($subject);
 		$mail->setText($message);
-		//$mail->send();----------------------------------------------------------send 
+		$mail->send();//----------------------------------------------------------send 
 
 		// Send to main admin email if new account email is enabled
 		if (in_array('account', (array)$this->config->get('config_mail_alert'))) {
