@@ -470,7 +470,7 @@ class ControllerExtensionModulePavsliderlayer extends Controller {
 			'slider_videoid' => '',
 			'slider_videoplay' => '0',
 			'fullwidth'=> '',
-			'image' => 'data/slide_image.jpg',
+			'image' => 'catalog/slider/default-slider.png',
 			'layersparams'=> '',
 			'slider_transition' => 'random',
 			'slider_delay'   => '0',
