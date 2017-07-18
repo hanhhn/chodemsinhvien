@@ -59,7 +59,7 @@ $_['entry_coupon']           = 'Nhập mã giảm giá:';
 $_['entry_voucher']          = 'Nhập phiếu voucher:';
 $_['entry_reward']           = 'Điểm cần sử dụng (Tối đa %s):';
 $_['entry_country']          = 'Quốc gia:';
-$_['entry_zone']             = 'Vùng / Tiểu bang:';
+$_['entry_zone']             = 'Quận / Huyện:';
 $_['entry_postcode']         = 'Mã bưu điện:';
 
 // Error
@@ -75,7 +75,7 @@ $_['error_maximum']          = 'Cảnh báo: Số điểm tối đa có thể đ
 $_['error_postcode']         = 'Mã bưu điện phải có từ 2 đến 10 ký tự!';
 $_['error_country']          = 'Hãy chọn một nước!';
 $_['error_recurring_required'] = 'Please select a payment recurring!';
-$_['error_zone']             = 'Vui lòng chọn một khu vực / tiểu bang!';
+$_['error_zone']             = 'Vui lòng chọn một quận / huyện!';
 $_['error_shipping']         = 'Cảnh báo: Yêu cầu phương thức vận chuyển!';
 $_['error_no_shipping']      = 'Cảnh báo: Tùy chọn vận chuyển hiện tại chưa sẵn sàng. Vui lòng <a href="%s"> liên hệ </a>để được hổ trợ!';
 ?>

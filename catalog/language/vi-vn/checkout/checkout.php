@@ -68,7 +68,7 @@ $_['entry_address_2']                = 'Địa chỉ dòng 2:';
 $_['entry_postcode']                 = 'Mã Bưu Điện:';
 $_['entry_city']                     = 'Thành Phố:';
 $_['entry_country']                  = 'Quốc Gia:';
-$_['entry_zone']                     = 'Vùng / Tiểu Bang:';
+$_['entry_zone']                     = 'Quận / Huyện:';
 $_['entry_newsletter']               = 'Tôi muốn đăng kí nhận bản tin %s .';
 $_['entry_shipping'] 	             = 'Địa chỉ nhận hàng và địa chỉ thanh toán của tôi giống nhau.';
 
@@ -88,7 +88,7 @@ $_['error_address_1']                = 'Địa chỉ dòng 1 phải từ 3 đế
 $_['error_city']                     = 'Thành Phố phải từ 2 đến 128 kí tự!';
 $_['error_postcode']                 = 'Mã Bưu Điện phải từ 2 đến 10 kí tự!';
 $_['error_country']                  = 'Vui lòng chọn quốc gia!';
-$_['error_zone']                     = 'Vui lòng chọn vùng / tiểu bang!';
+$_['error_zone']                     = 'Vui lòng chọn quận / huyện!';
 $_['error_agree']                    = 'Lỗi: Bạn phải đồng ý với điều khoản %s!';
 $_['error_address']                  = 'Lỗi: Bạn phải chọn địa chỉ!';
 $_['error_shipping']                 = 'Lỗi: Thiếu phương thức vận chuyển!';

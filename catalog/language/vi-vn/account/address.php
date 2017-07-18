@@ -23,7 +23,7 @@ $_['entry_postcode']    = 'Mã Bưu Điện:';
 $_['entry_company_id']  = 'Trang Web:';
 $_['entry_city']        = 'Thành Phố:';
 $_['entry_country']     = 'Quốc Gia:';
-$_['entry_zone']        = 'Vùng / Tiểu Bang:';
+$_['entry_zone']        = 'Quận / Huyện:';
 $_['entry_default']     = 'Địa chỉ mặc định:';
 
 // Error
@@ -36,6 +36,6 @@ $_['error_postcode']    = 'Mã bưu điện phải từ 2 đến 10 kí tự!';
 $_['error_city']        = 'Thành phố phải từ 2 đến 128 kí tự!';
 $_['error_vat']            = 'VAT number is invalid!';
 $_['error_country']     = 'Vui lòng chọn quốc gia!';
-$_['error_zone']        = 'Vui lòng chọn vùng / tiểu bang!';
+$_['error_zone']        = 'Vui lòng chọn quận / huyện!';
 $_['error_custom_field']   = '%s cần phải có!';
 ?>

@@ -27,7 +27,7 @@ $_['entry_address_2']           = 'Địa chỉ dòng 2:';
 $_['entry_postcode']            = 'Mã Bưu Điện:';
 $_['entry_city']                = 'Thành Phố:';
 $_['entry_country']             = 'Quốc Gia:';
-$_['entry_zone']                = 'Vùng / Tiểu Bang:';
+$_['entry_zone']                = 'Quận / Huyện:';
 $_['entry_newsletter']     		= 'Đăng kí thông báo:';
 $_['entry_password']            = 'Mật Khẩu:';
 $_['entry_confirm']             = 'Nhập lại Mật Khẩu:';
@@ -44,7 +44,7 @@ $_['error_address_1']   = 'Địa chỉ dòng 1 phải từ 3 đến 128 kí t�
 $_['error_city']        = 'Thành phố phải từ 2 đến 128 kí tự!';
 $_['error_postcode']    = 'Mã bưu điện phải từ 2 đến 10 kí tự!';
 $_['error_country']     = 'Vui lòng chọn quốc gia!';
-$_['error_zone']        = 'Vui lòng chọn vùng / tiểu bang!';
+$_['error_zone']        = 'Vui lòng chọn quận / huyện!';
 $_['error_custom_field']   = '%s required!';
 $_['error_agree']       = 'Lỗi: Bạn phải đồng ý điều khoản %s!';
 ?>
