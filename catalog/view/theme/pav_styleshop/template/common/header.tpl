@@ -94,7 +94,7 @@ $logoType = $helper->getConfig('logo_type','logo-theme');
 <?php foreach ($analytics as $analytic) { ?>
   <?php echo $analytic; ?>
   <?php } ?>
-  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,200,400italic,700,600,300italic,600italic,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,200,400italic,700,600,300italic,600italic,700italic,900,900italic' rel='stylesheet' type='text/css'>
 </head>
 
 
