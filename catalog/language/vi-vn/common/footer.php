@@ -14,4 +14,4 @@ $_['text_account']      = 'Tài khoản của tôi';
 $_['text_order']        = 'Lịch sử đơn hàng';
 $_['text_wishlist']     = 'Danh sách yêu thích';
 $_['text_newsletter']   = 'Thư thông báo';
-$_['text_powered']      = 'Việt hóa bởi <a href="http://vietxuagas.com.vn">VietXuanGas</a><br /> %s &copy; %s';
+$_['text_powered']      = 'Designed by <a href="https://www.facebook.com/cdsv.com.vn/">Chodemsv</a><br /> %s &copy; %s';

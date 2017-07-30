@@ -114,7 +114,6 @@
       <?php } else { ?>
         <?php echo $powered; ?>. 
       <?php } ?>
-      Designed by <a href="https://www.facebook.com/hngochanh" title="Hoàng Ngọc Hạnh">hngochanh</a>
       </div>  
 
       <?php if( $content=$helper->getLangConfig('widget_paypal_data') ) {?>

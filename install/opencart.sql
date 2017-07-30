@@ -2909,7 +2909,7 @@ INSERT INTO `oc_setting` (`store_id`, `code`, `key`, `value`, `serialized`) VALU
 (0, 'config', 'config_ftp_hostname', '', 0),
 (0, 'config', 'config_meta_title', 'Chợ đêm làng đại học', 0),
 (0, 'config', 'config_meta_description', 'Chợ đêm sinh viên, chợ đêm làng đại học..', 0),
-(0, 'config', 'config_meta_keyword', 'Chợ đêm làng đại học, chợ đêm sinh viên, chợ đêm nông lâm, chợ đêm đại học quốc gia, chợ đêm', 0),
+(0, 'config', 'config_meta_keyword', 'Chợ đêm làng đại học, chợ đêm sinh viên, chợ đêm đại học quốc gia, chợ đêm', 0),
 (0, 'config', 'config_theme', 'theme_default', 0),
 (0, 'config', 'config_layout_id', '4', 0),
 (0, 'config', 'config_country_id', '222', 0),
