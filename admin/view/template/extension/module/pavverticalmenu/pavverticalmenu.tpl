@@ -13,7 +13,6 @@
 				<a class="btn btn-success" title="<?php echo $objlang->get('button_save_new'); ?>" onclick="$('#save_mode').val('save-new');$('#form').submit();"><?php echo $objlang->get('button_save_new'); ?></a> | 
 				<a class="btn btn-warning" title="<?php echo $objlang->get('text_live_edit'); ?>" href="<?php echo $liveedit_url; ?>"><?php echo $objlang->get('text_live_edit'); ?></a>
 				<a class="btn btn-danger" title="<?php echo $button_cancel; ?>" href="<?php echo $cancel; ?>" ><?php echo $button_cancel; ?></a> | 
-				<a class="btn btn-info" title="<?php echo $objlang->get('Guide'); ?>" id="btn-guide" href="http://www.pavothemes.com/guides/pav_megamenu/"><?php echo $objlang->get('Guide');?></a>
 			</div>
 			<h1><?php echo $heading_title; ?></h1>
 			<ul class="breadcrumb">

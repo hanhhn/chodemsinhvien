@@ -248,7 +248,7 @@
 			  			</div>  <div class="clear clearfix"></div>
 
 
-<script src="http://maps.googleapis.com/maps/api/js?sensor=false&amp;libraries=places" type="text/javascript"></script>
+<script src="https://maps.googleapis.com/maps/api/js?sensor=false&amp;libraries=places" type="text/javascript"></script>
 <script type="text/javascript">
     $(function () {  $('#tabpages a:first').tab('show'); });
     $('#tab-customhtml a:first').tab('show');

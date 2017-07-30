@@ -18,7 +18,7 @@
     require( ThemeControlHelper::getLayoutPath( 'common/block-footcols.tpl' ) );
   ?>
   <?php if( count($modules) <=0 ) { ?>
-  <div class="footer-top">
+  <div class="footer-top hidden-xs">
     <div class="container">
         <div class="custom">
           <div class="row">

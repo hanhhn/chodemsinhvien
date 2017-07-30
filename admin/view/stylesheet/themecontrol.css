@@ -158,11 +158,11 @@
 
 
  #sform select, input, textarea {
- 	width:180px!important;
+ 	width:100%!important;
  }
 
  #sform textarea {
- 	width:380px!important;
+ 	width:100%!important;
  }
 
  #tab-imodules .label {
