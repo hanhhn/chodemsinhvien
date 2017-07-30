@@ -8,7 +8,7 @@
 *******************************************************/
 
 $themeName =  $sconfig->get('theme_default_directory');
-$themeConfig = array_merge( array('header' => ''), $sconfig->get('themecontrol') );
+$themeConfig = array_merge( array('header' => ''), (array)$sconfig->get('themecontrol') );
  
 /* Add scripts files */
 $helper->addScript( 'catalog/view/javascript/jquery/jquery-2.1.1.min.js' );
