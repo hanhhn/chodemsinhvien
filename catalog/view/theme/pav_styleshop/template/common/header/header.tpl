@@ -43,7 +43,7 @@
 	<div id="header-main">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 logo">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 logo">
 					<?php if( $logoType=='logo-theme'){ ?>
 					<div id="logo-theme"><a href="<?php echo $home; ?>"><span><?php echo $name; ?></span></a></div>
 					<?php } elseif ($logo) { ?>

@@ -1044,6 +1044,7 @@ body[class*="layout-boxed-"] .d-content:before {
 /* line 208, opencart\layout.less */
 #header-main #logo {
   padding: 18px 32px 14px 0;
+  text-align: center;
 }
 /* line 211, opencart\layout.less */
 #header-main #logo-theme {
@@ -6337,6 +6338,19 @@ table td .button {
     width: 100px;
   }
 }
+
+@media (max-width: 767px) {
+	.footer-top .container .custom .box:nth-child(2),
+	.footer-top .container .custom .box:nth-child(3) {
+		display: none!important;
+		text-align: center;
+	}
+	.footer-center .container div div {
+		text-align: center;
+	}
+	
+}
+
 @media (max-width: 360px) {
   /* line 349, opencart\responsive.less */
   embed {
@@ -6349,15 +6363,21 @@ table td .button {
   /* line 354, opencart\responsive.less */
   .nav-tabs > li {
     border-bottom: 1px solid #E9E9E9;
-    float: none!important;
+    /*float: none!important;*/
     margin-bottom: 0;
   }
+
   /* line 358, opencart\responsive.less */
   .nav-tabs > li .active > a,
   .nav-tabs > li > a,
   .nav-tabs > li > a:hover,
   .nav-tabs > li > a:focus {
     border: none!important;
+  }
+  
+  .nav-tabs > li > a > span {
+	padding-right: 5px!important;
+	padding-left: 10px!important;
   }
   /* line 363, opencart\responsive.less */
   .social > span {
