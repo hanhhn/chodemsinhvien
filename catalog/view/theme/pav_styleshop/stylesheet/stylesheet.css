@@ -5456,8 +5456,8 @@ ul.social li:hover span {
   width: 20px;
   height: 20px;
   border-radius: 100%;
-  background-color: #79a3bd;
-  border: #ff6501;
+  background-color: #ff6501;
+  border: 1px solid #fff;
   top: 25%;
   right: 10px;
 }

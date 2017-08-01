@@ -1,7 +1,7 @@
 <?php
 // Heading
-$_['heading_title']        = '<strong>Pav Home Page Builder</strong>';
-$_['heading_banner_title'] = 'Pav Home Page Builder';
+$_['heading_title']        = '<strong>Home Page Builder</strong>';
+$_['heading_banner_title'] = 'Home Page Builder';
 
 $_['tab_groups']           = 'Home Pages Layout';
 $_['tab_module_assign']    = 'Modules Assignment';
@@ -15,7 +15,7 @@ $_['tab_module']           = 'Module ';
 
 // Text
 $_['text_module']          = 'Modules';
-$_['text_success']         = 'Well Done! You have modified Pav Home Page Builder module';
+$_['text_success']         = 'Well Done! You have modified Home Page Builder module';
 $_['text_all_page']        = 'All Page';
 $_['text_showcase']        = 'Showcase';
 $_['text_mass_bottom']     = 'Mass Bottom';

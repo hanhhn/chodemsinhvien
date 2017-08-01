@@ -8,7 +8,7 @@
 *******************************************************/
 
 // Heading
-$_['heading_title'] = 'Pav Blog Management';
+$_['heading_title'] = 'Blog Management';
 
 // Text
 $_['text_treemenu'] = 'Tree Category Management';

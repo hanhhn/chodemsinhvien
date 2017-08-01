@@ -1,11 +1,11 @@
 <?php
 // Heading
-$_['heading_title']            = 'Pav Product Carousel';
+$_['heading_title']            = 'Product Carousel';
 
 // Text
 $_['text_module']              = 'Modules';
-$_['text_edit']            = 'Edit Pav Product Carousel';
-$_['text_success']             = 'Success: You have modified module Pav Product Carousel!';
+$_['text_edit']            = 'Edit Product Carousel';
+$_['text_success']             = 'Success: You have modified module Product Carousel!';
 $_['text_content_top']         = 'Content Top';
 $_['text_content_bottom']      = 'Content Bottom';
 $_['text_column_left']         = 'Column Left';
@@ -62,7 +62,7 @@ $_['entry_description' ]       = 'Module Description';
 $_['entry_default_store' ]     = 'Filter By Store: ';
 
 // Error
-$_['error_permission']         = 'Warning: You do not have permission to modify module Pav Product Carousel!';
+$_['error_permission']         = 'Warning: You do not have permission to modify module Product Carousel!';
 $_['error_dimension']          = 'Width &amp; Height dimensions required!';
 $_['error_carousel']           = 'Width &amp;  Max Items - Max Columns - Limit Items In Carousel  required!';
 

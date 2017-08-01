@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']                 = 'Pav Layers Sliders';
+$_['heading_title']                 = 'Layers Sliders';
 
 // Text
 $_['text_module']                   = 'Modules';

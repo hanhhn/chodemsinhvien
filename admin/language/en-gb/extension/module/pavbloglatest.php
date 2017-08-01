@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']       = 'Pav Blog Latest Module';
+$_['heading_title']       = 'Blog Latest Module';
 
 // Text
 $_['text_module']         = 'Modules';

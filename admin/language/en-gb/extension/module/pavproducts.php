@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']       = 'Pav Products - Category Block Module';
+$_['heading_title']       = 'Products - Category Block Module';
 $_['text_create_new_module'] = 'Create A New Module';
 $_['entry_name'] = 'Name';
 $_['text_save_edit'] = 'Save And Edit';

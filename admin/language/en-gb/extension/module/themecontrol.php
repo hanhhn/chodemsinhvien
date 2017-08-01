@@ -32,20 +32,20 @@ $_['text_explain_unhookmodules_function'] = 'Drap and drop modules to Unhook Mod
 $_['text_explain_modules_function'] = 'Drap and drop modules to Update Modules on expected Positions. And to sort theirs orders';
 
 $_['text_explain_body_selector'] = 'Put CSS Selector such as body, h1, h3,h4, .box-title ';
-$_['text_explain_google_url'] = 'Example: http://fonts.googleapis.com/css?family=Jacques+Francois+Shadow|Pirata+One';
+$_['text_explain_google_url'] = 'Example: https://fonts.googleapis.com/css?family=Jacques+Francois+Shadow|Pirata+One';
 $_['text_explain_google_family'] = 'Example:\'Pirata One\', cursive';
 $_['text_entry_columns_first'] = 'This position has';
 $_['text_entry_columns_last'] = ' Columns. Each Column is a container wrapping module';
 $_['entry_enable_paneltool'] = 'Enable Panel Tool';
 $_['button_save_keep'] = 'Save and Edit';
 $_['text_explain_theme_width'] = 'Enter Layout width, such as 940px or 96%. Put value "<b>auto</b>" -> Layout width is used in stylesheet.css  of theme';
-$_['text_explain_custom_css'] = 'This is advanded feature for who having knowledge of CSS Language. You put css rules in below. <br>Css code store in file PAV_YOURTHEME/stylesheet/local/custom.css.';
+$_['text_explain_custom_css'] = 'This is advanded feature for who having knowledge of CSS Language. You put css rules in below. <br>Css code store in file YOURTHEME/stylesheet/local/custom.css.';
 $_['text_customcss'] = 'Custom Css';
 $_['text_customize_theme'] = '<b>Live Tools Customizing Theme</b>';
-$_['text_explain_customize_theme'] = 'Click Live Customizing Theme to create custom-theme-profiles and they will be listed in above dropdown box. You select one profile theme to apply for your site <br>!important: All theme profiles are stored in folder <b>PAV_YOURTHEME/stylesheet/customze</b>, it need permission 0755 to put files inside';
+$_['text_explain_customize_theme'] = 'Click Live Customizing Theme to create custom-theme-profiles and they will be listed in above dropdown box. You select one profile theme to apply for your site <br>!important: All theme profiles are stored in folder <b>YOURTHEME/stylesheet/customze</b>, it need permission 0755 to put files inside';
 $_['text_clear_jscss_cache']  = 'Clear JS,Css Cache';
 $_['text_complite_lesscss']  = 'Compile Less To Css';
-$_['text_explain_customization'] = 'The framework supports you two way to put your customization on theme.<ul><li>You create your css file(s) and put in PAV_YOURTHEME/stylesheet/local. All files will be loaded automatic</li><li>Or use tools at bellow</li></ul>';
+$_['text_explain_customization'] = 'The framework supports you two way to put your customization on theme.<ul><li>You create your css file(s) and put in YOURTHEME/stylesheet/local. All files will be loaded automatic</li><li>Or use tools at bellow</li></ul>';
 
 $_['text_installation_from_profile'] = 'Or Install Modules - Store Configurations From A Profile';
 $_['text_installation_profile'] = 'Profile Installation';
@@ -112,7 +112,7 @@ $_['error_permission']    = 'Warning: You do not have permission to modify modul
 $_['error_dimension']     = 'Width &amp; Height dimensions required!';
 $_['text_message_override_sample'] = 'Do you want to override data sample for this?';
 $_['text_message_install_sample'] = 'Do you want to Install New data sample for this?';
-$_['text_message_datasample_modules'] = '+ If you would like to install data sample for modules which will be taken look and feel like as demo on pavothemes. You click to Overrdie or Install link to start installing the sample of modules.<br><b>Please remember that you must to install below modules before using this tool</b>.<br> + If your moduled are ready installed, please backup data in any related table before installing our data sample' ;
+$_['text_message_datasample_modules'] = '+ If you would like to install data sample for modules which will be taken look and feel like as demo on themes. You click to Overrdie or Install link to start installing the sample of modules.<br><b>Please remember that you must to install below modules before using this tool</b>.<br> + If your moduled are ready installed, please backup data in any related table before installing our data sample' ;
 $_['text_install_datasample_store'] = 'Install Sample Configuration of Store ';
 $_['text_install_datasample_modules'] = 'Install Sample Configuration of Modules ';
 $_['text_install_sample'] = 'Install Sample';
@@ -127,7 +127,7 @@ $_['text_add_product_tab'] = 'Add Custom Tab';
 $_['entry_customtab_content'] = 'Custom Tab Content';
 $_['entry_customtab_name'] = 'Custom Tab Name: ';
 $_['text_product_related_column'] = '<b>Product Related Columns<b>';
-$_['text_explain_internal_modules'] = '* <span class="label">Internal Modules</span><i> supports by pavo framework and need not install, put on postions as opencart module</i>';
+$_['text_explain_internal_modules'] = '* <span class="label">Internal Modules</span><i> supports by  framework and need not install, put on postions as opencart module</i>';
 //general 
 $_['fontsize'] = 'Font Size';
 $_['copyright'] = 'Copyright';

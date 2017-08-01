@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']       = 'Pav Newsletter';
+$_['heading_title']       = 'Newsletter';
 
 // Text
 $_['txt_none'] = 'Default';

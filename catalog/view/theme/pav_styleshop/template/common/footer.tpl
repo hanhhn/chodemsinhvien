@@ -83,7 +83,9 @@
 
         <?php if( $content=$helper->getLangConfig('widget_banner_ft') ) {?>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-          <?php echo $content; ?>
+          <div style="text-align: center;">
+			<?php echo $content; ?>
+		  </div>
         </div>
         <?php } ?>
 

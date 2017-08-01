@@ -8,7 +8,7 @@
 *******************************************************/
 
 // Heading
-$_['heading_title']       = '<b>Pav Vertical MegaMenu</b>';
+$_['heading_title']       = '<b>Vertical MegaMenu</b>';
 
 // Text
 $_['text_treemenu']     = 'Tree Verticalmenu Management';
@@ -99,7 +99,7 @@ $_['text_widget_banner'] 	       = "Banner";
 $_['text_widget_image'] 	   	   = "Image";
 $_['text_widget_video_code']   	   = "Video Code";
 $_['text_widget_feed'] 		   	   = "Feed";
-$_['text_pavo_blogs']		   	   = "Latest Pavo Blogs"; 
+$_['text_pavo_blogs']		   	   = "Latest Blogs"; 
 $_['text_delete']			       = "Delete";
 $_['text_add_widget'] 		       = 'Add/Edit Widget';
 $_['text_widget_product_id']       = 'Product ID';

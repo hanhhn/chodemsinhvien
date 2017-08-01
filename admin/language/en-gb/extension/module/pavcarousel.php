@@ -1,8 +1,8 @@
 <?php
 // Heading
-$_['heading_title']       = 'Pav Carousel';
+$_['heading_title']       = 'Carousel';
 
-$_['text_edit']       = 'Edit Pav Carousel';
+$_['text_edit']       = 'Edit Carousel';
 $_['text_save_edit']       = 'Save and Stay';
 $_['text_add_new_module']       = 'Add new module';
 $_['text_edit_module']         = 'Edit module ';
