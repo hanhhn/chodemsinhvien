@@ -177,7 +177,7 @@
                   </div>
                 </div>
                 <?php echo $captcha; ?>
-                 <div class="buttons">
+                 <div style="margin-bottom: 100px;">
                   <div class="pull-right">
                     <input class="button btn btn-theme-default" type="submit" value="<?php echo $button_submit; ?>" />
                   </div>

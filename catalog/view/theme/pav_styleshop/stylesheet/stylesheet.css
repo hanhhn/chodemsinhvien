@@ -1043,7 +1043,7 @@ body[class*="layout-boxed-"] .d-content:before {
 }
 /* line 208, opencart\layout.less */
 #header-main #logo {
-  padding: 18px 32px 14px 0;
+  padding: 15px 0px;
   text-align: center;
 }
 /* line 211, opencart\layout.less */
@@ -1261,7 +1261,8 @@ body[class*="layout-boxed-"] .d-content:before {
 }
 /* line 14, opencart\box.less */
 .box {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  margin-top: 15px;
   /* box styles */
 }
 /* line 17, opencart\box.less */
@@ -6006,7 +6007,7 @@ table td .button {
 @media (min-width: 992px) and (max-width: 1199px) {
   /* line 66, opencart\responsive.less */
   .support .box-services {
-    min-width: 181px;
+    min-width: 150px;
   }
   /* line 68, opencart\responsive.less */
   .support .box-services .media-body small {
@@ -6140,7 +6141,7 @@ table td .button {
   /* line 178, opencart\responsive.less */
   #search {
     right: 15px;
-    top: 106px;
+    top: 110px;
     z-index: 3;
   }
   /* line 183, opencart\responsive.less */
@@ -6345,11 +6346,13 @@ table td .button {
 		display: none!important;
 		text-align: center;
 	}
+	.footer-top .container .custom .box,
 	.footer-center .container div div {
 		text-align: center;
 	}
 	
 }
+
 
 @media (max-width: 360px) {
   /* line 349, opencart\responsive.less */
