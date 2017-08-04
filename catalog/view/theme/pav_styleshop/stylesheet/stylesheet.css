@@ -1261,8 +1261,7 @@ body[class*="layout-boxed-"] .d-content:before {
 }
 /* line 14, opencart\box.less */
 .box {
-  margin-bottom: 15px;
-  margin-top: 15px;
+  margin-bottom: 20px;
   /* box styles */
 }
 /* line 17, opencart\box.less */
